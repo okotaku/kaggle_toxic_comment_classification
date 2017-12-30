@@ -6,9 +6,9 @@
 # Solution2
 
 -  model: BidLstm
-  - feature: 128 word embedding
-  - valloss: 0.0495
-  - LB: 0.52
+    - feature: 128 word embedding
+    - valloss: 0.0495
+    - LB: 0.52
 
 - model: LSTM
   - feature: 128 word embedding
