@@ -35,7 +35,7 @@ if __name__ == "__main__":
             ytr = y[train_idx]
             xval = train_tfidf[test_idx]
             yval = y[test_idx]
-            model = LogisticRegression(C=9.0)
+            model = LogisticRegression(C=9.0, class_weight='balanced')
             model.fit(xtr, ytr)
             pred_train = model.predict_proba(xtr)
             loss_train = log_loss(ytr, pred_train)
