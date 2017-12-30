@@ -4,6 +4,7 @@
   - LB 0.53
 
 # Solution2
+
 -  model: BidLstm
   - feature: 128 word embedding
   - valloss: 0.0495
