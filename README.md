@@ -1,6 +1,7 @@
 # Solution1
 ベーシックなモデルとして、TFIDFを特徴量としたロジスティック回帰を行なった。
 
+# Solution2
 各モデルAttentionを加え、word embedingはgloveの学習済みモデル(glove.840B.300d.zip)を使用。
 https://github.com/stanfordnlp/GloVe
 
