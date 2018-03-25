@@ -75,7 +75,7 @@ https://github.com/stanfordnlp/GloVe
 -  model: convaigru2l
   - Private=0.9831, Public=0.9829
 
-#参考文献
+# 参考文献
 https://www.kaggle.com/tunguz/logistic-regression-with-words-and-char-n-grams
 https://www.kaggle.com/yekenot/pooled-gru-fasttext
 https://www.kaggle.com/chongjiujjin/capsule-net-with-gru
